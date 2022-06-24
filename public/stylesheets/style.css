@@ -2,7 +2,18 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+.h1-limpio{
+  padding: 0;
+  margin: 0;
+}
 a {
   color: #00B7FF;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
 }

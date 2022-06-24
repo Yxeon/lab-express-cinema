@@ -1,0 +1,20 @@
+<div class="container">
+<div class="card-group" style="width: 200px;">
+    <div class="card">
+        <img src="{{image}}" class="card-img-top" style="width: 200px" alt="{{title}}">
+        <div class="card-body">
+            <h5 class="card-title">{{title}}</h5>
+            <h5 class="card-text">Director: {{director}}</h5>
+
+            <ul style="font-weight: bold;"> Stars:
+                {{#each stars}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            <p>Description: {{description}}</p>
+            <p>Showtimes: {{showtimes}}</p>
+            <a href="/movies">Go back</a>
+            </div>
+    </div>
+</div>
+</div>
